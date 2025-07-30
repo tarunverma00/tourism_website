@@ -15,14 +15,14 @@ A modern, responsive tourism website for TravelBuddy Tours & Travels. This proje
 
 ## Project Structure (Direct Urls are used for images)
 
-about.html         # About page
-background1.jpg    # Background image
-cart.html          # Shopping cart page
-contact.html       # Contact page
-index.html         # Home page
-register.html      # Registration/Login page
-script.js          # Main JavaScript for interactivity
-style.css          # Main stylesheet
+about.html         # About page,
+background1.jpg    # Background image,
+cart.html          # Shopping cart page,
+contact.html       # Contact page,
+index.html         # Home page,
+register.html      # Registration/Login page,
+script.js          # Main JavaScript for interactivity,
+style.css          # Main stylesheet,
 tours.html         # Tours listing page
 
 
