@@ -17,7 +17,7 @@ A modern, responsive tourism website for TravelBuddy Tours & Travels. This proje
 
 about.html         # About page,
 background1.jpg    # Background image,
-cart.html          # Shopping cart page,
+cart.html          # cart page,
 contact.html       # Contact page,
 index.html         # Home page,
 register.html      # Registration/Login page,
@@ -50,7 +50,3 @@ This project is frontend-only. To connect to a backend:
 1. Replace images and text as needed for your brand.
 2. Update styles in `style.css` for a unique look.
 
-
-
-
-**TravelBuddy Tours & Travels** — Explore the world with us!
