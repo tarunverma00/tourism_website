@@ -2,7 +2,7 @@
 
 A modern, responsive tourism website for TravelBuddy Tours & Travels. This project showcases beautiful destinations, user testimonials, and a seamless booking experience, built with HTML, CSS, and JavaScript.
 
-## Features
+## Features (More to be added soon)
 
 1. Responsive design for all devices
 2. Animated hero and testimonials sections
@@ -13,7 +13,7 @@ A modern, responsive tourism website for TravelBuddy Tours & Travels. This proje
 7. Hamburger menu for mobile navigation
 8. FontAwesome icons and Google Fonts
 
-## Project Structure
+## Project Structure (Direct Urls are used for images)
 
 about.html         # About page
 background1.jpg    # Background image
@@ -37,7 +37,7 @@ tours.html         # Tours listing page
 
 2. **Open `index.html` in your browser** to view the site locally.
 
-## Backend Integration
+## Backend Integration is in Progress
 
 This project is frontend-only. To connect to a backend:
 
