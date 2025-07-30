@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Our Tours - TravelBuddy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+      <a href="index.html" class="nav-logo">TravelBuddy</a>
+            </div>
+            <div class="nav-right">
+                <div class="nav-actions">
+                    <div class="search-container" id="search-container">
+                        <input type="search" class="search-input" placeholder="Search...">
+                        <button class="search-btn" id="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                    <a href="register.html" class="btn btn-sm btn-outline">Log In</a>
+                    <a href="register.html" class="btn btn-sm">Sign Up</a>
+                    <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+        <!-- Slide-out Menu -->
+        <ul class="nav-menu" id="nav-menu">
+            <li class="nav-menu-header">
+                <a href="index.html" class="nav-logo-menu">TravelBuddy</a>
+            </li>
+            <li class="nav-item"><a href="index.html" class="nav-link"><i class="fa-solid fa-house"></i> Home</a></li>
+            <li class="nav-item"><a href="tours.html" class="nav-link active-link"><i class="fa-solid fa-map-location-dot"></i> Tours</a></li>
+            <li class="nav-item"><a href="register.html" class="nav-link"><i class="fa-solid fa-user-plus"></i> Register</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link"><i class="fa-solid fa-circle-info"></i> About</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <section class="tours-section">
+            <h2 data-aos="fade-up">Our Featured Tours</h2>
+            <div class="tours-container">
+                <div class="tour-card gallery-trigger" data-aos="zoom-in"
+                     data-gallery="https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=2070&auto=format&fit=crop,https://images.unsplash.com/photo-1502602898657-3e91760c0341?q=80&w=2070&auto=format&fit=crop,https://images.unsplash.com/photo-1431274172761-fca41d930114?q=80&w=2070&auto=format&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=2070&auto=format&fit=crop" alt="Tour to Paris">
+                    <h3>Parisian Dreams</h3>
+                    <p>Discover the magic of Paris, from the Eiffel Tower to the Louvre.</p>
+                    <button class="btn add-to-cart-btn" data-id="paris" data-name="Parisian Dreams" data-price="1500" data-image="https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?q=80&w=2070&auto=format&fit=crop">Add</button>
+                </div>
+                <div class="tour-card gallery-trigger" data-aos="zoom-in" data-aos-delay="200"
+                     data-gallery="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=2070&auto=format&fit=crop,https://images.unsplash.com/photo-1503899036084-c55cdd92da26?q=80&w=1974&auto=format&fit=crop,https://images.unsplash.com/photo-1536098561742-ca998e48cbcc?q=80&w=1935&auto=format&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=2070&auto=format&fit=crop" alt="Tour to Tokyo">
+                    <h3>Tokyo Adventure</h3>
+                    <p>Experience the vibrant culture and futuristic landscapes of Tokyo.</p>
+                    <button class="btn add-to-cart-btn" data-id="tokyo" data-name="Tokyo Adventure" data-price="1800" data-image="https://images.unsplash.com/photo-1542051841857-5f90071e7989?q=80&w=2070&auto=format&fit=crop">Add</button>
+                </div>
+                <div class="tour-card gallery-trigger" data-aos="zoom-in" data-aos-delay="400"
+                     data-gallery="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop,https://images.unsplash.com/photo-1552832230-c0197dd311b5?q=80&w=1974&auto=format&fit=crop,https://images.unsplash.com/photo-1525874684015-58379d421a52?q=80&w=1974&auto=format&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop" alt="Tour to Rome">
+                    <h3>Roman Holiday</h3>
+                    <p>Walk through history in the ancient city of Rome and enjoy Italian cuisine.</p>
+                    <button class="btn add-to-cart-btn" data-id="rome" data-name="Roman Holiday" data-price="1300" data-image="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1966&auto=format&fit=crop">Add</button>
+                </div>
+                <div class="tour-card gallery-trigger" data-aos="zoom-in"
+                     data-gallery="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2,https://images.unsplash.com/photo-1533105079780-52b9be48475a?q=80&w=2070&auto=format&fit=crop,https://images.unsplash.com/photo-1563789031959-4c02bcb40312?q=80&w=1974&auto=format&fit=crop">
+                    <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Tour to Santorini">
+                    <h3>Santorini Sunsets</h3>
+                    <p>Witness the world-famous sunsets over the Aegean Sea in beautiful Santorini.</p>
+                    <button class="btn add-to-cart-btn" data-id="santorini" data-name="Santorini Sunsets" data-price="2000" data-image="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2">Add</button>
+                </div>
+                <div class="tour-card gallery-trigger" data-aos="zoom-in" data-aos-delay="200"
+                     data-gallery="https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=2070&auto=format&fit=crop,https://images.unsplash.com/photo-1545569341-9eb8b30979d9?q=80&w=2070&auto=format&fit=crop,https://images.unsplash.com/photo-1583939003579-534895c8e058?q=80&w=1974&auto=format&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=2070&auto=format&fit=crop" alt="Tour to Kyoto">
+                    <h3>Kyoto's Serenity</h3>
+                    <p>Explore ancient temples, serene gardens, and traditional geisha districts.</p>
+                    <button class="btn add-to-cart-btn" data-id="kyoto" data-name="Kyoto's Serenity" data-price="1700" data-image="https://images.unsplash.com/photo-1528164344705-47542687000d?q=80&w=2070&auto=format&fit=crop">Add</button>
+                </div>
+                <div class="tour-card gallery-trigger" data-aos="zoom-in" data-aos-delay="400"
+                     data-gallery="https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=2076&auto=format&fit=crop,https://images.unsplash.com/photo-1605217136289-38c2493782dc?q=80&w=2072&auto=format&fit=crop,https://images.unsplash.com/photo-1526723883361-6cc862454223?q=80&w=2070&auto=format&fit=crop">
+                    <img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=2076&auto=format&fit=crop" alt="Tour to Machu Picchu">
+                    <h3>Inca Trail Discovery</h3>
+                    <p>Hike the legendary Inca Trail to the lost city of Machu Picchu in Peru.</p>
+                    <button class="btn add-to-cart-btn" data-id="peru" data-name="Inca Trail Discovery" data-price="2200" data-image="https://images.unsplash.com/photo-1587595431973-160d0d94add1?q=80&w=2076&auto=format&fit=crop">Add</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-nav">
+            <a href="index.html">Home</a>
+            <a href="tours.html">Tours</a>
+            <a href="register.html">Register</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </div>
+        <p>&copy; TravelBuddy Tours & Travels. All rights reserved.</p>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div id="gallery-modal" class="modal">
+        <span class="close-button">&times;</span>
+        <div class="modal-content">
+            <img id="modal-image" src="" alt="Tour Gallery Image">
+        </div>
+        <a class="prev">&#10094;</a>
+        <a class="next">&#10095;</a>
+    </div>
+
+    <a href="#" id="back-link" class="back-link"><i class="fas fa-arrow-left"></i> Back</a>
+
+    <a href="#" id="scroll-up-btn" class="scroll-up-btn"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</body>
+</html>
